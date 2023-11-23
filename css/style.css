@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(circle, #C2F8D5, #82F8AB);
+    }
+
+    .titulo{
+        font-size: 0.8rem;
+        color: #444;
+        text-align: justify;
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'Lexend Giga', sans-serif;
+    }
+
+    .cuerpo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20rem;
+    }
+
+    .boton, .boton2{
+        width: 12rem;
+        height: 6rem;
+        background-color: #A492F7;
+        border: 0.3em solid #fff;
+        border-radius: 0.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        cursor: pointer;
+        transition: background-color 0.4s;
+        margin: 3rem;
+    }
+
+    .boton:hover, .boton2:hover{
+        background-color: #7FFA84;
+    }
+
+    #resultado {
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-top: 1em;
+        text-align: center;
+    }

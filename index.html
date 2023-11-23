@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <link href="estilo5.css" rel="stylesheet">
+    <title>Actividad 4</title>
+    <link rel="shortcut icon" href="icono2.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h2>En esta página existen dos bloques div a modo de botones. Cuando se pulse con el ratón en cualquier botón deberá aparecer en otro div el id del botón donde se ha pulsado.</h2>
+        <h2>De tal manera que interactúan los componentes de los botones con el mostrador de resultados</h2>
+    </div>
+    <div class="cuerpo">
+        <div class="boton" id="boton1" onclick="mostrarID(this.id)">
+            <p>Botón 1</p>
+        </div>
+        <div class="boton2" id="boton2" onclick="mostrarID(this.id)">
+            <p>Botón 2</p>
+        </div>
+    </div>
+
+    <!-- Div para mostrar el resultado -->
+    <div id="resultado"></div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
